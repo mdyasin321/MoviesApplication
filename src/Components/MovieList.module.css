@@ -1,0 +1,36 @@
+.movie{
+    display: flex;
+    padding-right: 5px;
+    position: relative;
+    transition: transform 0.2s;
+    position: relative;
+    height: 50vh;
+} 
+
+.movie:hover {
+    cursor: pointer;
+    transform: scale(1.2,1.1);
+}
+
+
+.overlay{
+
+    position: absolute;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    background-color: #454141cc;
+    opacity: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 15px 25px 15px;
+    color: white;
+    text-align: center;
+
+}
+ 
+.movie:hover .overlay{
+    opacity: 1;
+}
+
+.overlay span{
+    padding-right: 5px;
+}

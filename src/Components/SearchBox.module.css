@@ -1,0 +1,21 @@
+.searchBox{
+    padding-right: 10px;
+}
+
+.searchBox input{
+    border-radius: 5px;
+    width: 100px;
+    border: none;
+    height: 25px;
+    padding: 5px;
+    transition: width 0.3s;
+
+
+}
+
+.searchBox input:hover{
+    width: 150px;
+}
+ /* .searchBox:focus{
+    border: none;
+ } */
